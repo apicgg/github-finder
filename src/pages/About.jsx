@@ -9,7 +9,7 @@ function About() {
           {' '}
           React Front To Back
         </a>{' '}
-        Udemy course by
+        Udemy course by{' '}
         <strong>
           <a href='https://traversymedia.com'>Brad Traversy</a>
         </strong>
