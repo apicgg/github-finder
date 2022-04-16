@@ -15,7 +15,10 @@ function User() {
   useEffect(() => {
     getUser(params.login)
     getUserRepos(params.login)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
+
+  console.log(params)
 
   const {
     name,
@@ -164,7 +167,7 @@ function User() {
           </div>
         </div>
 
-        <RepoList reposs={repos} />
+        <RepoList repos={repos} />
       </div>
     </>
   )
