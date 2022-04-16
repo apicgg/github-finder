@@ -19,8 +19,13 @@ function About() {
         Version <span className='text-white'>1.0.0</span>
       </p>
       <p className='text-lg text-gray-400'>
-        Designed By:
-        <a className='text-white' href='https://twitter.com/titas_p'>
+        Designed By:{' '}
+        <a
+          className='text-white'
+          href='https://twitter.com/titas_p'
+          target='_blank'
+          rel='noreferrer'
+        >
           Anurag Pramanik
         </a>
       </p>
