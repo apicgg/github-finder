@@ -9,7 +9,7 @@ function User() {
 
   useEffect(() => {
     getUser(params.login)
-  }, [])
+  })
 
   return <div>{user.login}</div>
 }
