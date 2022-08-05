@@ -1,5 +1,7 @@
 # Github Finder App
 
+Find github users and display their info
+
 This project is a fork from [bradtraversy/github-finder-app](https://github.com/bradtraversy/github-finder-app)
 
 ## Usage
